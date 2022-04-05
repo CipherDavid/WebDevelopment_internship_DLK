@@ -1,0 +1,94 @@
+.page
+{
+    width: 1605px;
+    height: 1200px;
+    border-style:groove;
+}
+
+.headerpart
+{
+    width: 1600px;
+    height: 286px;
+    border-style:groove;
+    background-color: rgb(255, 255, 255);
+    background-image:url('cres2.png');
+    background-repeat: no-repeat;
+}
+.linkspart
+{
+    width: 1600px;
+    height: 25px;
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    border-style: groove;
+}
+
+.linkspart a
+{
+    color: rgb(0,33,141);
+    text-decoration: none;
+}
+.linkspart a:hover
+{
+    background-color: rgb(30,30,30);
+    color: rgb(255, 255, 255);
+}
+.bodypart
+{
+    width: 1600px;
+    height: 865px;
+    border-style:groove;
+    margin-top: 5px;
+}
+.bodypart .imagepart
+{
+    width: 825px;
+    height: 600px;
+    border-style:groove;
+    background-image: url(im145.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.bodypart .newspart
+{
+    width: 750px;
+    height: 850px;
+    border-style:groove ;
+    float: right;
+}
+.bodypart .newspart h2
+{
+    color: green;
+    margin-left: 50px;
+}
+.bodypart .newspart
+{
+    width: 750px;
+    height: 800px;
+    border-style:groove ;
+    float: right;
+}
+.bodypart .newspart .news
+{
+   width: 745px;
+   height: 775px; 
+}
+.bodypart .newspart .news h4
+{
+    color: blue;
+}
+.bodypart h3
+{
+    color: blue;
+    text-align: center;
+}
+.footerpart
+{    width: 1600px;
+    height: 25px;
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    border-style: groove;
+}
+
+
+
