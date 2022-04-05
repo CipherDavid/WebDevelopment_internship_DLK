@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>E-mail Registration</title>
+        <style>
+            table
+            {
+                color: white;
+                border-radius: 20px;
+            }
+
+            #button
+            {
+                background-color: green;
+                color: white;
+                height: 32px;
+                width: 85px;
+                border-radius: 25px;
+            }
+
+            body
+            {
+                background: linear-gradient(red,blue);
+            }          
+        </style>
+    </head>
+    <body>
+        <h1 align="center">E-Mail Registration</h1>
+        <br><br><br><br><br><br>
+
+        <form>
+        <table border="0" bgcolor="black" align="center" cellspacing="20">
+            <tr>
+                <td>First Name</td><td>
+                <input type="text" name="Username" placeholder="Enter your first name" maxlength="20" id="Username"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td>
+                    <input type="text" name="Username" placeholder="Enter your last name" maxlength="20" id="Username">
+                </td>
+            </tr>
+            <tr>
+                <td>Date OF Birth</td>
+                <td><input type="text" placeholder="dd/mm/yyyy" required></td>
+            </tr>
+            <tr>
+                <td>Create Password</td><td>
+                <input type="password" name="Password" placeholder="Create Password" maxlength="15" id="Password"></td>
+            </tr>
+            <tr>
+                <td>Confirm Password</td><td>
+                <input type="password" name="Password" placeholder="confirm Password" maxlength="15" id="Password"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="request_Gender" value="Male" id="Male"> Male
+                    <input type="radio" name="request_Gender" value="Female" id="Female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <a href="login.html">
+                        <input type="submit" id="button"> 
+                    </a>                   
+                </td>
+            </tr>
+        </table>
+    </form>
+    </body>
+</html>
